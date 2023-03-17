@@ -1,8 +1,11 @@
 #include <stdio.h>
-/* main- my entry point */
+/**
+ * main - Entry point
+ *
+ * Return: always 0
+ */
 int main(void)
-/* puts- prinys array of character or strings */
-	{
-		puts("Programming is like building a multilingual puzzle\n");
-	return(0);
-	}
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
