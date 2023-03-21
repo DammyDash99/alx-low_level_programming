@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * main - entry point
+ *
+ * return - always return 0
+ *
+ */ 
 int main(void)
-	/* _putchar prints a singke character */
 {
 	_putchar ('_');
 	_putchar ('p');
