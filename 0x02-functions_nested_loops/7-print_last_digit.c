@@ -2,11 +2,11 @@
 /**
  * print_last_digit - main function
  *
- * @n: character to be checked
- *
- * Return: returns the last digit 
+ * @n: integer to get last digit of
+ * Return: last digit of n
  *
  */
+
 int print_last_digit(int n)
 {
 	_putchar('0' + _abs(n % 10));
