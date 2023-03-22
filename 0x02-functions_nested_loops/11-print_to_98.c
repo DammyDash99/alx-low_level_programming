@@ -4,6 +4,7 @@
 /**
  * print_to_98 - main function
  *
+ * @n: integer to be checked
  */
 
 void print_to_98(int n)
