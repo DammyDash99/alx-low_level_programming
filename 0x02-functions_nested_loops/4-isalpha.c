@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *
- * _isalpha - main function
+ * _isalpha: main function
  *
  * @c: character to be checked
  *
