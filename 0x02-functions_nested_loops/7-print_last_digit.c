@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * print_last_digit - main function
+ *
+ * @n: character to be checked
+ *
+ * Return: returns the last digit 
+ *
+ */
+int print_last_digit(int n)
+{
+	_putchar(_abs(n % 10));
+	return (_abs(n % 10));
+}
