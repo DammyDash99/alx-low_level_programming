@@ -7,12 +7,11 @@
  * Return: returns 1 if operation is true,0 of false
  *
  */
-int _islower(int c);
+int _islower(int c)
 {
-	if (c => 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else
-		return (0);
+	return (0);
 }
