@@ -1,14 +1,15 @@
-#include <stdio.h>
 #include "main.h"
-#define MY_LIBRARY_H
+#include <stdio.h>
+#define UNUSED(x) (void)(x)
 /**
  * main - main function
  * @argc: argumentc
  * @argv: vector of arguments
  *Return: always 0
  */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
+	UNUSED(argc);
 	printf("%s\n", argv[0]);
 	return (0);
 }
